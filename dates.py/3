@@ -1,0 +1,6 @@
+from datetime import datetime
+
+now_with_micro = datetime.now()
+now_no_micro = now_with_micro.replace(microsecond=0)
+print(now_no_micro)
+
